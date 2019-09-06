@@ -6,7 +6,9 @@ import {View,
   Dimensions,
   Image
 } from 'react-native';
-//import LinearGradient from 'react-native-linear-gradient';
+
+
+import LinearGradient from 'react-native-linear-gradient';
 
 
 
@@ -26,14 +28,18 @@ class StartContainer extends Component <Props, State> {
   }
   render (){
     return (
-     
       <View style={styles.container}>
-        <Text>asdasd</Text>
-        {/* <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
-
-          <Image source={require('../bg.jpg')} />
-        </LinearGradient> */}
+        <View >
+          <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
+            <Image source={require('../bg.jpg')} />
+          </LinearGradient>
+        </View>
+        <View >
+          <Text>برنامه نویس فرانت</Text>
+          
+        </View>
       </View>
+
     )
   }
 }
