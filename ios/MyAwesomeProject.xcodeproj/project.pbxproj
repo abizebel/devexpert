@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MyAwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyAwesomeProjectTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -16,6 +15,18 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* MyAwesomeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyAwesomeProjectTests.m */; };
+		734B5FA3580E48C683D6F1F8 /* IRANSansMobile(FaNum)_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC2964DC4E9949BE9160905E /* IRANSansMobile(FaNum)_Black.ttf */; };
+		EFE568415AC54F94B08C1983 /* IRANSansMobile(FaNum)_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4984A3AEFD774055B6F31CDD /* IRANSansMobile(FaNum)_Bold.ttf */; };
+		11805C56C14046859F2432E2 /* IRANSansMobile(FaNum)_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B7A63347E6E4526BD251C1D /* IRANSansMobile(FaNum)_Light.ttf */; };
+		60542E3BD45D4BBEB0326860 /* IRANSansMobile(FaNum)_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57BCCB55569B431A952E0314 /* IRANSansMobile(FaNum)_Medium.ttf */; };
+		D69DC9CB6F6242948E5B3CE2 /* IRANSansMobile(FaNum)_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 699F50B0EEBF4CA0B684954D /* IRANSansMobile(FaNum)_UltraLight.ttf */; };
+		363D40AB6534428EAC65945A /* IRANSansMobile(FaNum).ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4EB362548FA48FFAB0D408E /* IRANSansMobile(FaNum).ttf */; };
+		E2E3EA9DF4C64828A57DF7EC /* IRANSans_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50ED9369B04E4191A691051A /* IRANSans_Black.ttf */; };
+		8C511CAB7F1544B0B87B0A70 /* IRANSans_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1E383D7AAF34DE2A7750319 /* IRANSans_Bold.ttf */; };
+		4C310F6008E54187AED3E7E7 /* IRANSans_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74D1CDB5ABFF4FC298C7A0B1 /* IRANSans_Light.ttf */; };
+		651F2929A6954AC48198BE48 /* IRANSans_Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F225587DEED45D69EBA42A0 /* IRANSans_Medium.ttf */; };
+		F6B6DF7E542E491C8AC40328 /* IRANSans_UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47EE69C420D54749A4EC9499 /* IRANSans_UltraLight.ttf */; };
+		BD2D04B36609453F95C9B153 /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2166EFAE7B44452A8B295CF /* IRANSans.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,18 @@
 		2D02E4901E0B4A5D006451C7 /* MyAwesomeProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyAwesomeProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FC2964DC4E9949BE9160905E /* IRANSansMobile(FaNum)_Black.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile(FaNum)_Black.ttf"; path = "../assets/fonts/IRANSansMobile(FaNum)_Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4984A3AEFD774055B6F31CDD /* IRANSansMobile(FaNum)_Bold.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile(FaNum)_Bold.ttf"; path = "../assets/fonts/IRANSansMobile(FaNum)_Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B7A63347E6E4526BD251C1D /* IRANSansMobile(FaNum)_Light.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile(FaNum)_Light.ttf"; path = "../assets/fonts/IRANSansMobile(FaNum)_Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		57BCCB55569B431A952E0314 /* IRANSansMobile(FaNum)_Medium.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile(FaNum)_Medium.ttf"; path = "../assets/fonts/IRANSansMobile(FaNum)_Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		699F50B0EEBF4CA0B684954D /* IRANSansMobile(FaNum)_UltraLight.ttf */ = {isa = PBXFileReference; name = "IRANSansMobile(FaNum)_UltraLight.ttf"; path = "../assets/fonts/IRANSansMobile(FaNum)_UltraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C4EB362548FA48FFAB0D408E /* IRANSansMobile(FaNum).ttf */ = {isa = PBXFileReference; name = "IRANSansMobile(FaNum).ttf"; path = "../assets/fonts/IRANSansMobile(FaNum).ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		50ED9369B04E4191A691051A /* IRANSans_Black.ttf */ = {isa = PBXFileReference; name = "IRANSans_Black.ttf"; path = "../assets/fonts/IRANSans_Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C1E383D7AAF34DE2A7750319 /* IRANSans_Bold.ttf */ = {isa = PBXFileReference; name = "IRANSans_Bold.ttf"; path = "../assets/fonts/IRANSans_Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74D1CDB5ABFF4FC298C7A0B1 /* IRANSans_Light.ttf */ = {isa = PBXFileReference; name = "IRANSans_Light.ttf"; path = "../assets/fonts/IRANSans_Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9F225587DEED45D69EBA42A0 /* IRANSans_Medium.ttf */ = {isa = PBXFileReference; name = "IRANSans_Medium.ttf"; path = "../assets/fonts/IRANSans_Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47EE69C420D54749A4EC9499 /* IRANSans_UltraLight.ttf */ = {isa = PBXFileReference; name = "IRANSans_UltraLight.ttf"; path = "../assets/fonts/IRANSans_UltraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2166EFAE7B44452A8B295CF /* IRANSans.ttf */ = {isa = PBXFileReference; name = "IRANSans.ttf"; path = "../assets/fonts/IRANSans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +163,7 @@
 				00E356EF1AD99517003FC87E /* MyAwesomeProjectTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				D6BCAFC1ABA64A458C4C1DA6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +180,26 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		D6BCAFC1ABA64A458C4C1DA6 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				FC2964DC4E9949BE9160905E /* IRANSansMobile(FaNum)_Black.ttf */,
+				4984A3AEFD774055B6F31CDD /* IRANSansMobile(FaNum)_Bold.ttf */,
+				0B7A63347E6E4526BD251C1D /* IRANSansMobile(FaNum)_Light.ttf */,
+				57BCCB55569B431A952E0314 /* IRANSansMobile(FaNum)_Medium.ttf */,
+				699F50B0EEBF4CA0B684954D /* IRANSansMobile(FaNum)_UltraLight.ttf */,
+				C4EB362548FA48FFAB0D408E /* IRANSansMobile(FaNum).ttf */,
+				50ED9369B04E4191A691051A /* IRANSans_Black.ttf */,
+				C1E383D7AAF34DE2A7750319 /* IRANSans_Bold.ttf */,
+				74D1CDB5ABFF4FC298C7A0B1 /* IRANSans_Light.ttf */,
+				9F225587DEED45D69EBA42A0 /* IRANSans_Medium.ttf */,
+				47EE69C420D54749A4EC9499 /* IRANSans_UltraLight.ttf */,
+				B2166EFAE7B44452A8B295CF /* IRANSans.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -240,7 +284,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -293,6 +337,18 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				734B5FA3580E48C683D6F1F8 /* IRANSansMobile(FaNum)_Black.ttf in Resources */,
+				EFE568415AC54F94B08C1983 /* IRANSansMobile(FaNum)_Bold.ttf in Resources */,
+				11805C56C14046859F2432E2 /* IRANSansMobile(FaNum)_Light.ttf in Resources */,
+				60542E3BD45D4BBEB0326860 /* IRANSansMobile(FaNum)_Medium.ttf in Resources */,
+				D69DC9CB6F6242948E5B3CE2 /* IRANSansMobile(FaNum)_UltraLight.ttf in Resources */,
+				363D40AB6534428EAC65945A /* IRANSansMobile(FaNum).ttf in Resources */,
+				E2E3EA9DF4C64828A57DF7EC /* IRANSans_Black.ttf in Resources */,
+				8C511CAB7F1544B0B87B0A70 /* IRANSans_Bold.ttf in Resources */,
+				4C310F6008E54187AED3E7E7 /* IRANSans_Light.ttf in Resources */,
+				651F2929A6954AC48198BE48 /* IRANSans_Medium.ttf in Resources */,
+				F6B6DF7E542E491C8AC40328 /* IRANSans_UltraLight.ttf in Resources */,
+				BD2D04B36609453F95C9B153 /* IRANSans.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

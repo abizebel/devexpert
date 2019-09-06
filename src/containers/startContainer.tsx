@@ -29,13 +29,11 @@ class StartContainer extends Component <Props, State> {
   render (){
     return (
       <View style={styles.container}>
-        <View >
-          <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={styles.linearGradient}>
-            <Image source={require('../bg.jpg')} />
-          </LinearGradient>
+        <View style={styles.bg}>
+          <Image source={require('../bg.jpg')} />
         </View>
         <View >
-          <Text>برنامه نویس فرانت</Text>
+          <Text style={styles.title}>برنامه نویس فرانت</Text>
           
         </View>
       </View>
@@ -45,21 +43,26 @@ class StartContainer extends Component <Props, State> {
 }
 
 const styles = StyleSheet.create({
-  container : {},
-  bg : {
+  container : {
     flex:1,
     justifyContent:'center',
     alignItems:'center',
+  },
+  bg : {
+    flex:1,
     width:Dimensions.get('window').width,
     height:Dimensions.get('window').height,
+  },
+  title : {
+    color : '#fff',
+    fontFamily : 'IRANSansMobile(FaNum)_Medium',
+    flexGrow : 1,
+    flex:1,
+    alignItems:'center',
+    justifyContent:'center',
+    fontSize :36,
+  }
 
-  },
-  linearGradient: {
-    flex: 1,
-    paddingLeft: 15,
-    paddingRight: 15,
-    borderRadius: 5
-  },
 })
 
 export default StartContainer
