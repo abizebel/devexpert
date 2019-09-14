@@ -39,18 +39,22 @@ class StartContainer extends Component <Props, State> {
           <Text style={styles.title}>برنامه نویس فرانت</Text>
         </View>
         <View >
-          <Text style={styles.subtitle}>یاد گیری و اشتراک تجربه</Text>
+          <Text style={styles.subtitle}>یادگیری و اشتراک تجربه</Text>
         </View>
         <View >
           <Text style={styles.description}>یاد گیری مباحث تخصصی و مشارکت در پرسش و پاسخ و یافتن شغل </Text>
         </View>
-        <View >
+        <View style={styles.buttonContainer}>
         <Button
-
+          onPress={()=>{
+            Alert.alert('ohhh')
+          }}
           title="شروع یادگیری"
+          buttonStyle={styles.startButton}
+          textStyle={{fontFamily : "IRANSansMobile(FaNum)_Medium"}}
           ViewComponent={LinearGradient} // Don't forget this!
           linearGradientProps={{
-            colors: ['#FFC107', '#D8A40A'],
+            colors: ['#FFC107', '#B78C09'],
             start: { x: 0, y: 0.5 },
             end: { x: 1, y: 0.5 },
           }}
@@ -100,8 +104,15 @@ const styles = StyleSheet.create({
     fontFamily : 'IRANSansMobile(FaNum)_Medium',
     fontSize :13,
   },
+  buttonContainer : {
+    flex:1, 
+    justifyContent:'center',
+    alignItems:'center'
+  },
   startButton : {
-    fontFamily : 'IRANSansMobile(FaNum)_Medium',
+    padding:12,
+    width:300,
+    borderRadius:50,
 
   }
 
