@@ -4,9 +4,12 @@ import {View,
   StyleSheet,
   ScrollView,
   Dimensions,
-  Image
+  Image,
+  ImageBackground,
+  Alert
 } from 'react-native';
-
+import { Button } from 'react-native-elements';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 import LinearGradient from 'react-native-linear-gradient';
 
@@ -29,14 +32,25 @@ class StartContainer extends Component <Props, State> {
   render (){
     return (
       <View style={styles.container}>
-        <View style={styles.bg}>
-          <Image source={require('../bg.jpg')} />
-        </View>
+
+
+      <ImageBackground source={require('../bg.jpg')} style={{width: '100%', height: '100%'}}>
         <View >
           <Text style={styles.title}>برنامه نویس فرانت</Text>
-          
         </View>
-      </View>
+        <View >
+          <Text style={styles.subtitle}>یاد گیری و اشتراک تجربه</Text>
+        </View>
+        <View >
+          <Text style={styles.description}>یاد گیری مباحث تخصصی و مشارکت در پرسش و پاسخ و یافتن شغل </Text>
+        </View>
+        <View >
+
+        </View>
+        
+
+      </ImageBackground>
+    </View>
 
     )
   }
@@ -45,22 +59,47 @@ class StartContainer extends Component <Props, State> {
 const styles = StyleSheet.create({
   container : {
     flex:1,
-    justifyContent:'center',
-    alignItems:'center',
+    flexDirection:'column',
+    backgroundColor:'red',
+    justifyContent:'flex-start'
+    
   },
   bg : {
-    flex:1,
     width:Dimensions.get('window').width,
     height:Dimensions.get('window').height,
   },
   title : {
+    textAlign:'center',
     color : '#fff',
     fontFamily : 'IRANSansMobile(FaNum)_Medium',
-    flexGrow : 1,
-    flex:1,
-    alignItems:'center',
-    justifyContent:'center',
     fontSize :36,
+    marginBottom: 120,
+    marginTop: 60
+  },
+  subtitle : {
+    textAlign:'center',
+    color : '#fff',
+    fontFamily : 'IRANSansMobile(FaNum)_Medium',
+    fontSize :20,
+
+  },
+  description : {
+    textAlign:'center',
+    color : '#fff',
+    fontFamily : 'IRANSansMobile(FaNum)_Medium',
+    fontSize :13,
+  },
+  startButton : {
+    backgroundColor: 'blue',
+    borderColor: 'white',
+    borderWidth: 1,
+    borderRadius: 12,
+    color: 'white',
+    fontSize: 24,
+    fontWeight: 'bold',
+    overflow: 'hidden',
+    padding: 12,
+    textAlign:'center',
   }
 
 })
