@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
     alignItems:'center',
   },
   startButton : {
-    padding:12,
+    padding:10,
     width:300,
     borderRadius:50,
   
