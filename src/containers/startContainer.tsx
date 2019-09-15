@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {View, 
-  Text, 
+import {
+  View, 
   StyleSheet,
   ScrollView,
   Dimensions,
@@ -8,16 +8,19 @@ import {View,
   ImageBackground,
   Alert
 } from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button, Text } from 'react-native-elements';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 import LinearGradient from 'react-native-linear-gradient';
 
+import { NativeRouter, Route, Link } from "react-router-native";
 
 
 
 export interface Props {
   name: string ;
+  history : any;
+  match: any;
 }
 
 export interface State {
@@ -30,6 +33,7 @@ class StartContainer extends Component <Props, State> {
     super(props)
   }
   render (){
+    const { history, match } = this.props;
     return (
       <View style={styles.container}>
 
@@ -45,22 +49,19 @@ class StartContainer extends Component <Props, State> {
           <Text style={styles.description}>یاد گیری مباحث تخصصی و مشارکت در پرسش و پاسخ و یافتن شغل </Text>
         </View>
         <View style={styles.buttonContainer}>
-
-          <Button 
-            onPress={()=>{
-              Alert.alert('ohhh')
-            }}
-            ViewComponent={LinearGradient} // Don't forget this!
-            linearGradientProps={{
-              colors: ['#FFC107', '#B78C09'],
-              start: { x: 0, y: 0.5 },
-              end: { x: 1, y: 0.5 },
-            }}
-            buttonStyle={styles.startButton}
-            title="شروع یادگیری" 
-            titleStyle={{ fontFamily:'IRANSansMobile(FaNum)_Medium' }}
-           />
-
+              <Button 
+              onPress={()=>{
+                history.push('/home')
+              }}
+              ViewComponent={LinearGradient} // Don't forget this!
+              linearGradientProps={{
+                colors: ['#FFC107', '#B78C09'],
+                start: { x: 0, y: 0.5 },
+                end: { x: 1, y: 0.5 },
+              }}
+              buttonStyle={styles.startButton}
+              title="شروع یادگیری" 
+              titleStyle={{ fontFamily:'IRANSansMobile(FaNum)_Medium' }} />
         </View>
         
 
