@@ -37,7 +37,6 @@ class StartContainer extends Component <Props, State> {
     return (
       <View style={styles.container}>
 
-
       <ImageBackground source={require('../bg.jpg')} style={{width: '100%', height: '100%'}}>
         <View >
           <Text style={styles.title}>برنامه نویس فرانت</Text>

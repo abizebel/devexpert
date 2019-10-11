@@ -1,6 +1,8 @@
 
 import React, {Fragment, Component} from 'react';
 import HomeContainer from './src/containers/homeContainer';
+import WelcomeContainer from './src/containers/welcomeContainer';
+
 import StartContainer from './src/containers/startContainer';
 import { NativeRouter, Route, Link } from "react-router-native";
 
@@ -16,8 +18,8 @@ class App extends Component <{}, {}> {
       <NativeRouter>
 
 
-        <Route exact path="/" component={StartContainer} />
-        <Route exact path="/home" component={HomeContainer} />
+        <Route exact path="/home" component={StartContainer} />
+        <Route exact path="/" component={HomeContainer} />
       </NativeRouter>
 
     )
