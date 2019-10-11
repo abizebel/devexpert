@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet, ScrollView } from 'react-native';
 import { SvgXml } from 'react-native-svg';
+import HTML from 'react-native-render-html';
 
 
 const sampleContent = `
